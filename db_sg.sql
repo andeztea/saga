@@ -264,9 +264,6 @@ CREATE TABLE IF NOT EXISTS `sentitems` (
 -- Dumping data untuk tabel `sentitems`
 --
 
-INSERT INTO `sentitems` (`UpdatedInDB`, `InsertIntoDB`, `SendingDateTime`, `DeliveryDateTime`, `Text`, `DestinationNumber`, `Coding`, `UDH`, `SMSCNumber`, `Class`, `TextDecoded`, `ID`, `SenderID`, `SequencePosition`, `Status`, `StatusError`, `TPMR`, `RelativeValidity`, `CreatorID`) VALUES
-('2015-08-02 03:50:27', '2015-08-02 03:47:30', '2015-08-02 03:50:27', NULL, '005400450053', '083804070476', 'Default_No_Compression', '', '+62816124', -1, 'TES', 216, '', 1, 'SendingError', -1, -1, 255, 'Gammu');
-
 --
 -- Trigger `sentitems`
 --
